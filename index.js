@@ -5,7 +5,7 @@ const path = require("path");
 const PORT = 3000;
 
 const server = http.createServer((req, res) => {
-  res.end("Hello, World!");
+  res.end("Hello, World!, this is a simple HTTP server.");
 });
 
 server.listen(PORT, () => {
